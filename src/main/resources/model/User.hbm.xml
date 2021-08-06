@@ -1,0 +1,8 @@
+<hibernate-mapping>
+    <class name="hib.model.User">
+        <property name="id"/>
+        <property name="name"/>
+        <property name="email"/>
+
+    </class>
+</hibernate-mapping>
