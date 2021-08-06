@@ -12,9 +12,9 @@ public class App {
 
 
         User user = new User();
-        user.setName("VADIK");
+        user.setName("VADIKKKK");
         user.setEmail("barsick@");
-        user.setId(4);
+        user.setId(5);
 
         Session session;
         try (StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
