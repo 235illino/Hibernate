@@ -1,4 +1,6 @@
+package main.hibernate_sql;
 
+import model.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
@@ -12,9 +14,9 @@ public class App {
 
 
         User user = new User();
-        user.setName("VADIKKKK");
+        user.setName("VADIKKKK_SHMADIK");
         user.setEmail("barsick@");
-        user.setId(5);
+        user.setId(6);
 
         Session session;
         try (StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
