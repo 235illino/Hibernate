@@ -1,8 +1,8 @@
 <hibernate-mapping>
-    <class name="model.User">
+    <class name="model.User2">
         <property name="id"/>
         <property name="name"/>
-        <property name="email"/>
+
 
     </class>
 </hibernate-mapping>
